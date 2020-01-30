@@ -20,6 +20,7 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
 }
 
 .container {
@@ -119,12 +120,6 @@ h3 {
   background-color: #ffffff;
 }
 
-.fw-bianco .container {
-  border: 1px solid black;
-  /*provvisoria*/
-  height: 800px;
-}
-
 .fw-bianco h1 {
   color: black;
   text-align: center;
@@ -159,6 +154,28 @@ h3 {
   margin-top: 12px;
 }
 
+.row {
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.colonna {
+  float: left;
+  height: 300px;
+  border-radius: 7%;
+}
+
+.img-responsive {
+  /*non funziona benissimo*/
+  width: auto;
+  height: auto;
+  border-radius: 7%;
+}
+
+/*************** ABOUT **********/
+
 /********** MOBILE***********/
 
 @media screen and (max-width: 992px) {
@@ -181,5 +198,10 @@ h3 {
     display: inline-block;
     padding: 0 25px;
     line-height: 60px;
+  }
+
+  .colonna {
+    /* è insieme a img-responsive... non funzionano benissimo, ma meglio di niente: c'è troppo spazio tra le immagini sotto 885px di larghezza*/
+    margin-bottom: 200px;
   }
 }
