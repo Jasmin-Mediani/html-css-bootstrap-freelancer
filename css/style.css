@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .clearfix:after {
   content: "";
   display: table;
@@ -56,7 +60,7 @@ ul li {
 }
 
 .fw-blu a:hover {
-    color: #1ABC9C;
+  color: #1abc9c;
 }
 
 /******* HEADER SEZIONE VERDE ACQUA ******/
@@ -79,28 +83,81 @@ h1 {
   font-weight: bold;
 }
 
-.cont-glyph { /*width da settare per md e lg*/
-    width: 320px;
-    margin: 0 auto;
+.cont-glyph {
+  /*width da settare per md e lg*/
+  width: 320px;
+  margin: 0 auto;
+  height: auto;
 }
 
 .cont-glyph div {
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.divisore-sx, .divisore-dx { /*width da settare per md e lg*/
-    width: 123px;
-    border: 2px solid white;
-    margin-top: 12px;
-    
+.divisore-sx,
+.divisore-dx {
+  /*width da settare per md e lg*/
+  width: 123px;
+  border: 2px solid white;
+  margin-top: 12px;
 }
 
 .fas {
-    font-size: 25px; /*da settare per md e lg*/
-    color: white;
+  font-size: 25px; /*da settare per md e lg*/
+  color: white;
 }
+
+h3 {
+  /*dovrei dare "color: white" direttamente a tutto il testo di .fw-acqua è bianco, così risparmio righe di codice*/
+  color: white;
+}
+/************* SEZIONE PORTFOLIO **********/
+
+.fw-bianco {
+  background-color: #ffffff;
+}
+
+.fw-bianco .container {
+  border: 1px solid black;
+  /*provvisoria*/
+  height: 800px;
+}
+
+.fw-bianco h1 {
+  color: black;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.fw-bianco .cont-glyph {
+  /*width da settare per md e lg*/
+  width: 320px;
+  margin: 0 auto;
+  height: auto;
+  border: none;
+}
+
+.fw-bianco .cont-glyph div {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fw-bianco .fas {
+  font-size: 25px; /*da settare per md e lg*/
+  color: black;
+}
+
+.fw-bianco .divisore-sx,
+.fw-bianco .divisore-dx {
+  /*width da settare per md e lg*/
+  width: 123px;
+  border: 2px solid black;
+  margin-top: 12px;
+}
+
 /********** MOBILE***********/
 
 @media screen and (max-width: 992px) {
@@ -124,3 +181,4 @@ h1 {
     padding: 0 25px;
     line-height: 60px;
   }
+}
