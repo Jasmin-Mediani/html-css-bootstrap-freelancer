@@ -79,6 +79,28 @@ h1 {
   font-weight: bold;
 }
 
+.cont-glyph { /*width da settare per md e lg*/
+    width: 320px;
+    margin: 0 auto;
+}
+
+.cont-glyph div {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.divisore-sx, .divisore-dx { /*width da settare per md e lg*/
+    width: 123px;
+    border: 2px solid white;
+    margin-top: 12px;
+    
+}
+
+.fas {
+    font-size: 25px; /*da settare per md e lg*/
+    color: white;
+}
 /********** MOBILE***********/
 
 @media screen and (max-width: 992px) {
