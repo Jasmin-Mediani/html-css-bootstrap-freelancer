@@ -129,10 +129,11 @@ h3 {
   color: black;
   text-align: center;
   margin-top: 150px;
+  /*font-size da diminuire leggermente per xs e md*/
 }
 
 .fw-bianco .cont-glyph {
-  /*width da settare per md e lg*/
+  /*width da settare per xs e md*/
   width: 320px;
   margin: 0 auto;
   height: auto;
@@ -146,13 +147,13 @@ h3 {
 }
 
 .fw-bianco .fas {
-  font-size: 25px; /*da settare per md e lg*/
+  font-size: 25px; /*da settare per xs e md*/
   color: black;
 }
 
 .fw-bianco .divisore-sx,
 .fw-bianco .divisore-dx {
-  /*width da settare per md e lg*/
+  /*width da settare per xs e md*/
   width: 123px;
   border: 2px solid black;
   margin-top: 12px;
