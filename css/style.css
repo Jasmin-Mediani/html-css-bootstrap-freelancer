@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  min-width: 520px;
 }
 
 .clearfix:after {
@@ -125,6 +126,14 @@ ul li {
   padding-top: 3px;
 }
 
+.mio-logo {
+  float: left;
+  margin-top: 20px;
+}
+.bottone {
+  float: right;
+}
+
 /******* HEADER SEZIONE VERDE ACQUA ******/
 
 .fw-acqua {
@@ -224,19 +233,47 @@ h3 {
 
 .colonna {
   float: left;
-  height: 300px;
   border-radius: 7%;
   margin-bottom: 30px;
 }
 
 .img-responsive {
+  padding-left: -15px;
   border-radius: 7%;
-  height: 300px;
-  width: 360px;
 }
 
 /*************** ABOUT **********/
 
+.h1acqua {
+  margin-top: 150px;
+}
+
+.overlay {
+  /*nota: l'overlay va sull'intera colonna, non solo sull'immagine*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 4%;
+  right: 4%;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #1abc9c;
+  border-radius: 20px;
+}
+.colonna:hover .overlay {
+  opacity: 0.8;
+}
+
+.overlay .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+}
 /********** MOBILE***********/
 
 @media screen and (max-width: 992px) {
@@ -255,5 +292,12 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media all and (max-width: 524px) {
+  /*non funziona...*/
+  .my_p1 {
+    font-size: 23px !important;
   }
 }
