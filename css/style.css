@@ -29,7 +29,6 @@ html {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
-  /*provvisorio*/
 }
 
 .menu {
@@ -112,7 +111,7 @@ ul li {
 }
 
 .navbar-toggle:hover {
-  background-color: #17a2b8 !important;
+  background-color: #158091 !important;
 }
 
 .collapsed .icon-bar {
@@ -143,8 +142,6 @@ ul li {
 
 .fw-acqua {
   background-color: #1abc9c;
-  /*provvisoria*/
-  height: 800px;
 }
 
 .contenitore-omino {
@@ -279,6 +276,79 @@ h3 {
   font-size: 60px;
   color: white;
 }
+
+.paragrafo-sx,
+.paragrafo-dx {
+  text-align: left;
+  font-size: 25px;
+  line-height: 35px;
+  color: white;
+}
+
+.contenitore {
+  width: 100%;
+  border: 1px solid red;
+  position: relative;
+  margin-bottom: 250px;
+}
+
+.free-download {
+  width: 220px;
+  height: 70px;
+  margin-bottom: 80px;
+  background-color: #1abc9c;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  font-size: 18px;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.fa-download {
+  color: white;
+}
+
+/************* SEZIONE CONTACT ME **********/
+
+.form-control {
+  height: 100px !important;
+  font-size: 23px;
+  border: 1px solid rgb(179, 179, 179);
+  border-left: none;
+  border-right: none;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+
+.form1,
+.form2,
+.form3 {
+  border-top: none;
+}
+
+textarea.form-control {
+  border: transparent;
+  border-bottom: 1px solid rgb(179, 179, 179) !important;
+  height: 300px !important;
+  padding-top: 30px;
+}
+
+.send-button {
+  width: 120px;
+  height: 90px;
+  margin-top: 30px;
+  background-color: #1abc9c;
+  color: white;
+  font-size: 25px;
+  border-radius: 7%;
+  border: none;
+}
+
+.send-button:hover {
+  background-color: #158091;
+}
+
 /********** MOBILE***********/
 
 @media screen and (max-width: 992px) {
