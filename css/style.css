@@ -165,13 +165,13 @@ h3 {
   float: left;
   height: 300px;
   border-radius: 7%;
+  margin-bottom: 80px;
 }
 
 .img-responsive {
-  /*non funziona benissimo*/
-  width: auto;
-  height: auto;
   border-radius: 7%;
+  height: 350px;
+  width: 350px;
 }
 
 /*************** ABOUT **********/
@@ -200,8 +200,9 @@ h3 {
     line-height: 60px;
   }
 
-  .colonna {
-    /* è insieme a img-responsive... non funzionano benissimo, ma meglio di niente: c'è troppo spazio tra le immagini sotto 885px di larghezza*/
-    margin-bottom: 200px;
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
