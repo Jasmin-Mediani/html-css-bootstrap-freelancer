@@ -80,6 +80,10 @@ ul li {
   font-weight: bold;
 }
 
+.mio-logo {
+  text-decoration: none !important;
+}
+
 .my_p2 {
   color: white;
   line-height: 65px;
