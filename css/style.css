@@ -251,7 +251,7 @@ h3 {
 }
 
 .overlay {
-  /*nota: l'overlay va sull'intera colonna, non solo sull'immagine*/
+  /*nota: l'overlay va sull'intera colonna, non solo sull'immagine. Per risolvere dovrei mettere le img in un altro container e dare a lui l'overlay*/
   position: absolute;
   top: 0;
   bottom: 0;
